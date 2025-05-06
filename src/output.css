@@ -582,9 +582,19 @@ video {
   margin: 1.5rem;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-14 {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .my-32 {
@@ -602,26 +612,6 @@ video {
   margin-bottom: 2rem;
 }
 
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
-
-.my-14 {
-  margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
-}
-
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
 .-mt-6 {
   margin-top: -1.5rem;
 }
@@ -634,16 +624,12 @@ video {
   margin-left: 7rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mb-52 {
-  margin-bottom: 13rem;
-}
-
 .mt-24 {
   margin-top: 6rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -682,40 +668,24 @@ video {
   max-width: 600px;
 }
 
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[87\] {
-  max-width: 87;
-}
-
-.max-w-\[875px\] {
-  max-width: 875px;
-}
-
 .shrink-0 {
   flex-shrink: 0;
-}
-
-.shrink {
-  flex-shrink: 1;
 }
 
 .scroll-mt-20 {
   scroll-margin-top: 5rem;
 }
 
-.scroll-mt-24 {
-  scroll-margin-top: 6rem;
+.scroll-mt-28 {
+  scroll-margin-top: 7rem;
+}
+
+.scroll-mt-8 {
+  scroll-margin-top: 2rem;
 }
 
 .scroll-mt-2 {
   scroll-margin-top: 0.5rem;
-}
-
-.scroll-mt-28 {
-  scroll-margin-top: 7rem;
 }
 
 .flex-col {
@@ -742,12 +712,12 @@ video {
   gap: 0.5rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .gap-8 {
@@ -787,29 +757,29 @@ video {
   background-color: rgb(0 0 0 / 0.4);
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .bg-opacity-40 {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\'\.\.\/images\/about-us-background\.png\'\)\] {
-  background-image: url('../images/about-us-background.png');
+.bg-\[url\(\'\.\/images\/about-us-background\.png\'\)\] {
+  background-image: url('./images/about-us-background.png');
 }
 
-.bg-\[url\(\'\.\.\/images\/background-road-share-1\.png\'\)\] {
-  background-image: url('../images/background-road-share-1.png');
+.bg-\[url\(\'\.\/images\/background-road-share-1\.png\'\)\] {
+  background-image: url('./images/background-road-share-1.png');
 }
 
 .bg-background-testimonials {
-  background-image: url('../images/background-image-testimonials.png');
+  background-image: url('./images/background-image-testimonials.png');
 }
 
 .bg-contain {
@@ -833,21 +803,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
-
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
 .pb-24 {
   padding-bottom: 6rem;
 }
@@ -860,20 +815,12 @@ video {
   padding-top: 10rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
-}
-
 .text-center {
   text-align: center;
 }
 
 .text-right {
   text-align: right;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .font-archivo {
@@ -909,6 +856,10 @@ video {
   line-height: 1;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -917,10 +868,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[20px\] {
-  font-size: 20px;
 }
 
 .font-bold {
@@ -942,10 +889,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .backdrop-blur-sm {
@@ -1203,10 +1146,6 @@ video {
     margin-bottom: 13rem;
   }
 
-  .xs-mid-768\:mt-24 {
-    margin-top: 6rem;
-  }
-
   .xs-mid-768\:block {
     display: block;
   }
@@ -1269,24 +1208,19 @@ video {
     padding-right: 0px;
   }
 
-  .xs-mid-768\:px-32 {
-    padding-left: 8rem;
-    padding-right: 8rem;
-  }
-
   .xs-mid-768\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
   }
 
+  .xs-mid-768\:px-32 {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
   .xs-mid-768\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .xs-mid-768\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
   }
 
   .xs-mid-768\:text-6xl {

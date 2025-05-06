@@ -21,7 +21,7 @@ module.exports = {
         'xs-10': '10px',
       },
       backgroundImage: {
-        'background-testimonials': "url('../images/background-image-testimonials.png')",
+        'background-testimonials': "url('./images/background-image-testimonials.png')",
       },
     },
   },
